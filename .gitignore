@@ -22,3 +22,5 @@ pnpm-debug.log*
 *.sln
 *.sw?
 node_modules
+src/components/놀면뭐하니.mp4
+src/img/Test.png
