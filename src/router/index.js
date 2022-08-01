@@ -84,6 +84,11 @@ const routes = [
     name: "Store Access",
     component: () => import(/* webpackChunkName: "storeaccess" */ "../views/StoreAccess.vue"),
   },
+  {
+    path: "/videoPlayer",
+    name: "videoPlayer",
+    component: () => import(/* webpackChunkName: "storeaccess" */ "../views/VideoPlayer.vue"),
+  },
 ];
 
 const router = createRouter({

@@ -1,0 +1,30 @@
+<template>
+  <div>
+    <video-player :options="videoOptions" />
+  </div>
+</template>
+
+<script>
+import VideoPlayer from "./VideoPlayer.vue";
+
+export default {
+  name: "VideoExample",
+  components: {
+    VideoPlayer,
+  },
+  data() {
+    return {
+      videoOptions: {
+        autoplay: true,
+        controls: true,
+        sources: [
+          {
+            src: "../components/놀면뭐하니.mp4",
+            type: "video/mp4",
+          },
+        ],
+      },
+    };
+  },
+};
+</script>
