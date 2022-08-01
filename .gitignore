@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
 /dist
-
+/components/놀면뭐하니.mp4
+/img
 
 # local env files
 .env.local
