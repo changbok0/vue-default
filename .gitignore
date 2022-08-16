@@ -2,6 +2,7 @@
 node_modules
 /dist
 /components/놀면뭐하니.mp4
+/놀면뭐하니.mp4
 /img
 
 # local env files
@@ -24,4 +25,5 @@ pnpm-debug.log*
 *.sw?
 node_modules
 src/components/놀면뭐하니.mp4
+src/놀면뭐하니.mp4
 src/img/Test.png
