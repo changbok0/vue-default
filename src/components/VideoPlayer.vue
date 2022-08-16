@@ -1,18 +1,18 @@
 <template>
   <div>
-    <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="../img/Test.png" data-setup="{}" ref="videoPlayer">
+    <!-- <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="../img/Test.png" data-setup="{}" ref="videoPlayer">
       <source src="../components/놀면뭐하니.mp4" type="video/mp4" />
-    </video>
+    </video> -->
   </div>
 </template>
 
 <script>
-import videojs from "video.js";
-import "video.js/dist/video-js.css";
-import "./VideoOptions.vue";
+import videojs from 'video.js';
+import 'video.js/dist/video-js.css';
+// import '../views/VideoOptions.vue';
 
 export default {
-  name: "VideoPlayer",
+  name: 'VideoPlayer',
   props: {
     options: {
       type: Object,
@@ -28,7 +28,7 @@ export default {
   },
   mounted() {
     this.player = videojs(this.$refs.videoPlayer, this.options, () => {
-      this.player.log("onPlayerReady", this);
+      this.player.log('onPlayerReady', this);
     });
   },
   beforeDestroy() {

@@ -5,10 +5,10 @@
 </template>
 
 <script>
-import VideoPlayer from "./VideoPlayer.vue";
+import VideoPlayer from '../components/VideoPlayer.vue';
 
 export default {
-  name: "VideoExample",
+  name: 'VideoExample',
   components: {
     VideoPlayer,
   },
@@ -17,12 +17,12 @@ export default {
       videoOptions: {
         autoplay: true,
         controls: true,
-        sources: [
-          {
-            src: "../components/놀면뭐하니.mp4",
-            type: "video/mp4",
-          },
-        ],
+        // sources: [
+        //   {
+        //     src: '../components/놀면뭐하니.mp4',
+        //     type: 'video/mp4',
+        //   },
+        // ],
       },
     };
   },
