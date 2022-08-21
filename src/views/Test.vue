@@ -1,12 +1,10 @@
 <template>
   <div>
-    <video v-for="preson in sources" :key="preson" id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="../img/Test.png" data-setup="{}" ref="videoPlayer">
-      <source :src="preson.src" :type="preson.type" />
+    <video target="_blank" v-for="(a, i) in sources" :key="a" :id="videoID[i]" class="video-js" controls preload="auto" width="640" height="264" poster="../img/Test.png" data-setup="{}" ref="videoPlayer">
+      <source :src="sources[i].src" :type="sources[i].type" />
     </video>
-    <!-- <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="../img/Test.png" data-setup="{}" ref="videoPlayer">
-      <source src="https://www.youtube.com/watch?v=CIuz0hr7huk" type="video/youtube" />
-    </video> -->
   </div>
+  <!-- for="(a, i) in sources" :key="a" -->
 </template>
 
 <script>
@@ -25,11 +23,18 @@ export default {
       },
     },
   },
+
+  setup() {},
   data() {
     return {
+      videoID: 'my_video',
       sources: [
+        // {
+        //   src: require('../복면가왕.E352.mp4'),
+        //   type: 'video/mp4',
+        // },
         {
-          src: 'https://www.youtube.com/watch?v=CIuz0hr7huk',
+          src: 'https://youtu.be/bw9HrnBQV38',
           type: 'video/youtube',
         },
         {
@@ -38,6 +43,7 @@ export default {
         },
       ],
       player: null,
+      foo: null,
     };
   },
   mounted() {

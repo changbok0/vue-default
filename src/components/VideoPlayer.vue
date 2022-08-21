@@ -1,8 +1,9 @@
 <template>
-  <div>
-    <!-- <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="../img/Test.png" data-setup="{}" ref="videoPlayer">
+  <!-- <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="../img/Test.png" data-setup="{}" ref="videoPlayer">
       <source src="../components/놀면뭐하니.mp4" type="video/mp4" />
     </video> -->
+  <div>
+    <video ref="videoPlayer" class="video-js"></video>
   </div>
 </template>
 
