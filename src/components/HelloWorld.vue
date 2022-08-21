@@ -29,13 +29,17 @@
       <li><a href="/basic" target="_blank">basic</a></li>
       <br />
       <li><a href="/videoPlayer" target="_blank">videoPlayer</a></li>
+      <br />
+      <li><a href="/videoOptions" target="_blank">videoOptions</a></li>
+      <br />
+      <li><a href="/test" target="_blank">test</a></li>
     </ul>
   </div>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: 'HelloWorld',
   props: {
     msg: String,
   },
@@ -59,4 +63,3 @@ a {
   color: #42b983;
 }
 </style>
-

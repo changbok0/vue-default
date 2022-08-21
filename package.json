@@ -27,6 +27,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-vue": "^9.1.1",
+    "html-loader": "^4.1.0",
     "video.js": "^7.20.1"
   },
   "eslintConfig": {
