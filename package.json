@@ -10,7 +10,10 @@
   "dependencies": {
     "axios": "^0.27.2",
     "core-js": "^3.8.3",
+    "date-fns": "^2.29.2",
     "sweetalert2": "^11.4.17",
+    "video.js": "^7.20.2",
+    "videojs-youtube": "^2.6.1",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vue-sweetalert2": "^5.0.5",
@@ -27,8 +30,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-vue": "^9.1.1",
-    "html-loader": "^4.1.0",
-    "video.js": "^7.20.1"
+    "html-loader": "^4.1.0"
   },
   "eslintConfig": {
     "root": true,

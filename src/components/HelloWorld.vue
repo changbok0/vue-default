@@ -33,6 +33,10 @@
       <li><a href="/videoOptions" target="_blank">videoOptions</a></li>
       <br />
       <li><a href="/test" target="_blank">test</a></li>
+      <br />
+      <li><a href="/calculator" target="_blank">calculator</a></li>
+      <br />
+      <li><a href="/axios" target="_blank">axios</a></li>
     </ul>
   </div>
 </template>
