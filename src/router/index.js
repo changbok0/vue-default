@@ -100,6 +100,16 @@ const routes = [
     name: 'test',
     component: () => import(/* webpackChunkName: "storeaccess" */ '../views/Test.vue'),
   },
+  {
+    path: '/calculator',
+    name: 'calculator',
+    component: () => import(/* webpackChunkName: "storeaccess" */ '../views/Calculator.vue'),
+  },
+  {
+    path: '/axios',
+    name: 'axios',
+    component: () => import(/* webpackChunkName: "storeaccess" */ '../views/AxiosTest.vue'),
+  },
 ];
 
 const router = createRouter({
