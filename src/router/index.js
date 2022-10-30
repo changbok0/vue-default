@@ -101,6 +101,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "storeaccess" */ '../views/Test.vue'),
   },
   {
+    path: '/test2',
+    name: 'test2',
+    component: () => import(/* webpackChunkName: "storeaccess" */ '../views/Test2.vue'),
+  },
+  {
     path: '/calculator',
     name: 'calculator',
     component: () => import(/* webpackChunkName: "storeaccess" */ '../views/Calculator.vue'),
