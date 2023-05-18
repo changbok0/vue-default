@@ -115,6 +115,11 @@ const routes = [
     name: 'axios',
     component: () => import(/* webpackChunkName: "storeaccess" */ '../views/AxiosTest.vue'),
   },
+  {
+    path: '/xlsxTest',
+    name: 'XlsxTest',
+    component: () => import(/* webpackChunkName: "storeaccess" */ '../views/XlsxTest.vue'),
+  },
 ];
 
 const router = createRouter({

@@ -37,6 +37,8 @@
       <li><a href="/calculator" target="_blank">calculator</a></li>
       <br />
       <li><a href="/axios" target="_blank">axios</a></li>
+      <br />
+      <li><a href="/xlsxTest" target="_blank">xlsxTest</a></li>
     </ul>
   </div>
 </template>
