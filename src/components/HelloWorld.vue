@@ -18,6 +18,8 @@
       <br />
       <li><a href="/slot" target="_blank">slot</a></li>
       <br />
+      <li><a href="/search" target="_blank">search</a></li>
+      <br />
       <li><a href="/serverdata" target="_blank">serverdata</a></li>
       <br />
       <li><a href="/example" target="_blank">example</a></li>

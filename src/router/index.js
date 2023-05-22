@@ -51,6 +51,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "example" */ '../views/Example.vue'),
   },
   {
+    path: '/search',
+    name: 'Search',
+    component: () => import(/* webpackChunkName: "example" */ '../views/Search.vue'),
+  },
+  {
     path: '/serverdata',
     name: 'ServerData',
     component: () => import(/* webpackChunkName: "serverdata" */ '../views/ServerData.vue'),
