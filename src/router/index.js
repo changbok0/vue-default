@@ -125,6 +125,16 @@ const routes = [
     name: 'XlsxTest',
     component: () => import(/* webpackChunkName: "storeaccess" */ '../views/XlsxTest.vue'),
   },
+  {
+    path: '/insertTest',
+    name: 'InsertTest',
+    component: () => import(/* webpackChunkName: "storeaccess" */ '../views/InsertTest.vue'),
+  },
+  {
+    path: '/checkboxTest',
+    name: 'CheckboxTest',
+    component: () => import(/* webpackChunkName: "storeaccess" */ '../views/CheckboxTest.vue'),
+  },
 ];
 
 const router = createRouter({

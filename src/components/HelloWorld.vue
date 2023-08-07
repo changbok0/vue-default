@@ -41,6 +41,8 @@
       <li><a href="/axios" target="_blank">axios</a></li>
       <br />
       <li><a href="/xlsxTest" target="_blank">xlsxTest</a></li>
+      <br />
+      <li><a href="/CheckboxTest" target="_blank">checkboxTest</a></li>
     </ul>
   </div>
 </template>
